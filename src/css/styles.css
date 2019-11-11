@@ -1,0 +1,36 @@
+canvas {
+  image-rendering: crisp-edges;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #fff;
+  border-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0.5rem auto;
+}
+
+table td,
+table th {
+  border: 2px solid #fff;
+  padding: 0.4rem;
+}
+
+table td {
+  border: 1px solid #fff;
+  vertical-align: middle;
+}
+
+button {
+  height: fit-content;
+}
+
+button.small {
+  padding: 0px 3px;
+  margin: 0 2px 0 0;
+}

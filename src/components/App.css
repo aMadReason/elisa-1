@@ -1,0 +1,66 @@
+:root {
+  --clock-hand-hours-display: none;
+  --clock-hand-seconds-display: none;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.app-layout > * {
+  flex-grow: 1;
+  text-align: center;
+  flex-basis: 50%;
+}
+
+.app-layout > .plate {
+  flex-basis: 100%;
+  min-width: 340px;
+}
+
+.well {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 100%;
+  margin: 0 0.1rem;
+  overflow: hidden;
+}
+
+.well > .contents {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: blue;
+}
+
+.logger {
+  min-height: 200px;
+  max-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  overflow-y: scroll;
+  padding: 0.5rem;
+}
+
+.logger > * {
+  text-align: left;
+  padding: 0.5rem;
+  background: #eee;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  border: 2px solid #d5d5d5;
+}
+
+table th,
+table td {
+  border: 1px solid #d5d5d5;
+}
